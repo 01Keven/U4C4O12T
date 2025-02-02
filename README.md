@@ -55,8 +55,8 @@ Os números são desenhados na matriz utilizando LEDs WS2812B, que são controla
 
 | Componente       | Descrição                                  |
 |-----------------|------------------------------------------|
-| Raspberry Pi Pico | Microcontrolador utilizado no projeto  |
-| Matriz WS2812B  | Matriz de LEDs endereçáveis             |
+| Raspberry Pi Pico W | Microcontrolador utilizado no projeto  |
+| Matriz WS2812  | Matriz de LEDs endereçáveis             |
 | Botões          | Três botões para controle do sistema    |
 | LED Vermelho    | LED indicador de status                 |
 
