@@ -6,7 +6,7 @@ Este projeto implementa um sistema para controle de uma matriz de LEDs utilizand
 
 ---
 
-## Vídeo Apresentação
+## Vídeo Apresentação (Baixe o vídeo para melhor resolução)
 - https://drive.google.com/file/d/19z6hVeYqy2P-gc60m-JFPZrAgenY0aw1/view?usp=sharing
 
 ---
