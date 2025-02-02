@@ -47,7 +47,7 @@ O código utiliza interrupções para detectar o pressionamento dos botões e at
 - **LED Vermelho (GPIO 13)** → Pisca a cada 100 ms.  
 - **Matriz de LEDs (GPIO 7)** → Exibe os números controlados pelos botões.  
 
-Os números são desenhados na matriz utilizando LEDs WS2812B, que são controlados via PIO (Programmable I/O).  
+Os números são desenhados na matriz utilizando LEDs WS2812, que são controlados via PIO (Programmable I/O).  
 
 ---
 
