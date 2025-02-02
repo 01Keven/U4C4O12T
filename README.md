@@ -2,6 +2,15 @@
 
 Este projeto implementa um sistema para controle de uma matriz de LEDs utilizando um Raspberry Pi Pico W. O código permite a exibição de números de 0 a 9 na matriz, que podem ser incrementados e decrementados usando botões físicos. Além disso, um LED vermelho pisca continuamente 5 vezes por segundo, e um botão de joystick pode ser utilizado para reiniciar o dispositivo.
 
+*Extra: Ao chegar no ultimo número (9), o sistema retorna para (0) para que seja possivel fazer a contagem de forma mais rápida, o mesmo acontece se descrementar do numero (0), assim ele vai para a ultima posição númerica que é o (9)*
+
+---
+
+## Vídeo Apresentação
+- https://drive.google.com/file/d/19z6hVeYqy2P-gc60m-JFPZrAgenY0aw1/view?usp=sharing
+
+---
+
 ## 📜 Sumário
 
 - [📌 Descrição do Projeto](#-descrição-do-projeto)  
@@ -25,7 +34,7 @@ O código utiliza interrupções para detectar o pressionamento dos botões e at
 
 ✅ Incrementar e decrementar o valor exibido na matriz de LEDs.  
 ✅ Reiniciar o dispositivo ao pressionar o botão do joystick.  
-✅ Piscar o LED vermelho periodicamente.  
+✅ Piscar o LED vermelho continuamente 5 vezes por segundo.  
 ✅ Enviar mensagens para o monitor serial para depuração.  
 
 ---
@@ -34,7 +43,7 @@ O código utiliza interrupções para detectar o pressionamento dos botões e at
 
 - **Botão A (GPIO 5)** → Incrementa o número exibido (0 a 9).  
 - **Botão B (GPIO 6)** → Decrementa o número exibido (0 a 9).  
-- **Botão Joystick (GPIO 22)** → Reinicia o Raspberry Pi Pico.  
+- **Botão Joystick (GPIO 22)** → Reinicia o Raspberry Pi Pico w.  
 - **LED Vermelho (GPIO 13)** → Pisca a cada 100 ms.  
 - **Matriz de LEDs (GPIO 7)** → Exibe os números controlados pelos botões.  
 
