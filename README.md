@@ -82,13 +82,15 @@ Os números são desenhados na matriz utilizando LEDs WS2812B, que são controla
 ### 1️⃣ Clonar o Repositório  
 
 ```sh
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-cd nome-do-repositorio
+git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/01Keven/U4C4O12T.git)
 ```
 
 ### 2️⃣ Compilar o Código  
 
-Para compilar o código, utilize o SDK do Raspberry Pi Pico e o CMake. Caso ainda não tenha o SDK configurado, siga [este guia oficial](https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf).
+Para compilar o código, utilize o SDK do Raspberry Pi Pico W e o CMake. Caso ainda não tenha o SDK configurado, siga [este guia oficial](https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf). Se tiver o SDK, compile o codigo normalmente.
+
+![image](https://github.com/user-attachments/assets/54ce2b09-d0aa-4871-af25-1c102d5c256c)
+
 
 ```sh
 mkdir build
