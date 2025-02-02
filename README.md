@@ -1,4 +1,4 @@
-# Controle de Matriz de LEDs com Raspberry Pi Pico  
+# Controle de Matriz de LEDs com Raspberry Pi Pico W  
 
 Este projeto implementa um sistema para controle de uma matriz de LEDs utilizando um Raspberry Pi Pico W. O código permite a exibição de números de 0 a 9 na matriz, que podem ser incrementados e decrementados usando botões físicos. Além disso, um LED vermelho pisca continuamente 5 vezes por segundo, e um botão de joystick pode ser utilizado para reiniciar o dispositivo.
 
